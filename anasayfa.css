@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+.bolum1{
+    background-image: url(./resimler/AnasayfaArkaPlan.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    padding-top:30px;
+}
+@media only screen and (max-width:768px) {
+    .navbar{
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+}
+.bolum1 .navbar-brand{
+    font-weight: 600;
+}
+.bolum1 .navbar li{
+    margin-left: 15px;
+}
+.bolum1 .navbar li a{
+    font-size: 16px;
+    color:white !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.bolum1 .navbar .navbar-nav .active>a{
+    color:#f7b71d !important;
+}
+.bolum1 .navbar .navbar-nav a:hover{
+    color:#f7b71d !important;
+}
+.bolum1 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:768px){
+    .bolum1 .container .row{
+        padding-top:280px;
+        height: 1300px;
+   }
+}
+@media only screen and (max-width:507px){
+    .bolum1{
+        height:2000px;
+    }
+}
+.kendimitanitma{
+    line-height: 30px;
+}
+
+
+
+
+#bolum2{
+    margin-top:10px;
+    margin-bottom:70px;
+    width: 100%;
+}
+#bolum2ust{
+    text-align: center;
+    padding-top: 70px;
+    border-top: 1px solid #858585;
+}
+#bolum2ust h3{
+    color:#333030;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#bolum2ust p{
+    color:#555353;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+#bolum2orta{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-between;
+    border-top:1px solid #858585;
+    border-bottom:1px solid #858585;
+}
+.kisi{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis: 230px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.kisi img{
+    margin-left: 25px;
+    border-radius:50%;
+    margin-right: 10px;
+    height: 210px;
+    width: 210px;
+}
+.kisi h4{
+    text-align: center;
+    margin-top:25px;
+    font-size:1.2em;
+    margin-bottom:10px;
+}
+.kisi p{
+    text-align: center;
+    font-size:0.9em;
+    margin-bottom:5px;
+}
+#bolum2alt{
+    padding-top: 50px;
+    max-width: 750px;
+    margin:0 auto;
+    text-align: center;
+}
+#bolum2alt p{
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width:980px){
+    .kisi{
+        flex-basis: 40%;
+        text-align: center;
+    }
+    .kisi img{
+        text-align: center;
+        float: none;
+    }
+}
+@media screen and (max-width:600px){
+    .kisi{
+        flex-basis: 100%;
+    }
+    #bolum2alt p{
+        width: 70%;
+        margin:0px auto 50px auto;
+    }
+}
