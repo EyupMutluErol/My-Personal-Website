@@ -158,3 +158,123 @@
         margin:0px auto 50px auto;
     }
 }
+
+
+
+#bolum3{
+    width: 100%;
+    background-color: #3cadd4;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#bolum3ust{
+    text-align: center;
+}
+#bolum3ust h5{
+    color:white;
+    font-size:3em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#bolum3ust p{
+    color:white;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#bolum3orta{
+    max-width: 1000px;
+    margin:0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+input[type=text]{
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border:none;
+}
+input[type=email]{
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border:none;
+}
+input[type=tel]{
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border:none;
+}
+textarea{
+    width: 525px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 150px;
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+}
+input[type=submit]{
+    padding:15px 50px;
+    border-radius: 20px;
+    border:none;
+    background-color: #333030;
+    color:white;
+    cursor: pointer;
+    font-weight: 500;
+}
+input[type=submit]:hover{
+    background-color: #37795c;
+    transition: 0.2s;
+}
+input[type=reset]{
+    padding:15px 50px;
+    border-radius: 20px;
+    border:none;
+    background-color: #333030;
+    color:white;
+    cursor: pointer;
+    font-weight: 500;
+}
+input[type=reset]:hover{
+    background-color: #b12929;
+    transition: 0.2s;
+}
+#cinsiyet{
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    border:none;
+    background-color: #fff;
+}
+#erkek{
+    margin-left: -30px;
+    margin-top: 15px;
+}
+#kiz{
+    margin-left: 25px;
+}
+@media screen and (max-width:540px){
+    textarea{
+        width: 265px;
+        height: 200px;
+    }
+}
