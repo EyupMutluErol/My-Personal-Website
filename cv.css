@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+.bolum1{
+    background-image: url(./Resimler/cvArkaPlan.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    padding-top:30px;
+}
+@media only screen and (max-width:768px) {
+    .navbar{
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+}
+.bolum1 .navbar-brand{
+    font-weight: 600;
+}
+.bolum1 .navbar li{
+    margin-left: 15px;
+}
+.bolum1 .navbar li a{
+    font-size: 16px;
+    color:white !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.bolum1 .navbar .navbar-nav .active>a{
+    color:#f7b71d !important;
+}
+.bolum1 .navbar .navbar-nav a:hover{
+    color:#f7b71d !important;
+}
+
+#cvProfil{
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#cvustkisim{
+    max-width: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#fff;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+    #cvustkisim{
+        padding-top: 100px;
+    }
+}
+#cvsarikisim{
+    border: 2.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 0 auto;
+    height: 65px;
+    background-color: #f7b71d;
+    max-width: 700px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+i{
+    color:#fff;
+    font-size: 23px;
+    display: block;
+}
+.bx-phone{
+    padding-top: 3px;
+    margin-left:50px;
+}
+#sarikisimtel{
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-basis: 150px;
+    float: left;
+}
+.bxl-gmail{
+    padding-top: 3px;
+    margin-left:100px;
+}
+#sarikisimmail{
+    margin-right: 100px;
+    flex-basis: 200px;
+    float: left;
+}
+
+.bx-calendar{
+    padding-top: 3px;
+    margin-left: 30px;
+}
+@media screen and (max-width:700px) {
+    #cvsarikisim{
+       height: 210px;
+       width: 300px;
+    }
+    #sarikisimtel{
+        margin: 0 auto;
+    }
+    #sarikisimmail{
+        margin: 0 auto;
+    }
+    #sarikisimdogum{
+        margin: 0 auto;
+    }
+    .bx-phone{
+        margin-left:65px;
+    }
+    .bx-calendar{
+        margin-left: 35px;
+    }
+}
+.baslik{
+    max-width: 700px;
+    margin: 0 auto;
+    color:#fff;
+    margin-bottom: 50px;
+}
+.baslik h6{
+    border-bottom: 2px solid #fff;
+}
+.solahizala{
+    float:left;
+}
+.sagahizala{
+    float:right;
+}
+.baslik{
+    max-width: 700px;
+    margin: 0 auto;
+    color:#fff;
+    margin-bottom: 50px;
+}
+ul{
+    margin-left: 15px;
+}
+@media screen and (max-width:500px) {
+    .bolum1{
+        height: 1100px;
+    }
+    .baslik{
+        width: 300px;
+    }
+    .sagahizala{
+        float:none;
+    }
+}
+@media screen and (max-width:992px){
+    .bolum1{
+        height: 1100px;
+    }
+}

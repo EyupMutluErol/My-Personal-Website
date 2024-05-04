@@ -54,3 +54,11 @@ i{
     transition: 0.4s;
     background-color: #489f7a;
 }
+@media screen and (max-width:510px) {
+    form{
+        width: 75%;
+    }
+    .ogrinput input{
+        width: 85%;
+    }
+}
