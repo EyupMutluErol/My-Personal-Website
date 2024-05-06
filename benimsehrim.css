@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+.bolum1{
+    background-image: url(./Resimler/dark_tint.png),url(./Resimler/bokeh_car_lights_bg.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: 50% 0;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    padding-top:30px;
+}
+@media only screen and (max-width:768px) {
+    .navbar{
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+}
+.bolum1 .navbar-brand{
+    font-weight: 600;
+}
+.bolum1 .navbar li{
+    margin-left: 15px;
+}
+.bolum1 .navbar li a{
+    font-size: 16px;
+    color:white !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.bolum1 .navbar .navbar-nav .active>a{
+    color:#f7b71d !important;
+}
+.bolum1 .navbar .navbar-nav a:hover{
+    color:#f7b71d !important;
+}
+.bolum1 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#sehrimbolum1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#sehrimbolum1orta{
+    text-align: center;
+}
+#sehrimbolum1orta h1{
+    color:#fff;
+    font-size: 3em;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+#sehrimbolum1orta p{
+    color:#fff;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+#sehrimbolum1orta a{
+    padding:15px 30px;
+    background-color: #3cadd4;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+#sehrimbolum1orta a:hover{
+    background-color: #59caf0;
+    transition: 0.5s;
+}
+#sehrimbolum2{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+#sehrimbolum2orta{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.sehrimbolum2kutu{
+    background-color:#fff;
+    flex-basis: 250px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.sehrimbolum2kutu h2{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color:#858585;
+}
+.sehrimbolum2kutu p{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:#858585;
+}
+#sehrimbolum3{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+}
+#sehrimbolum3ust{
+    padding-top: 30px;
+    text-align: center;
+} 
+#sehrimbolum3ust h1{
+    color:rgb(46, 41, 41);
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#sehrimbolum3orta{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.sehrimbolum3kutu{
+    background-color: #fff;
+    flex-basis: 300px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.sehrimbolum3kutu h2{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color:#858585;
+}
+.sehrimbolum3kutu p{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:#858585;
+}
+.sehrimbolum3kutu a{
+    color: #fff;
+    background-color: #3cadd4;
+    padding: 5px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.sehrimbolum3kutu a:hover{
+    background-color: #59caf0;
+    transition: 0.5s;
+}
+@media screen and (max-width:980px) {
+    #sehrimbolum1{
+        height: 60vh;
+    }
+    .bolum1{
+        height: 75vh;  
+    }
+    .sehrimbolum2kutu{
+        flex-basis: 75%;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+}
+@media screen and (max-width:600px) {
+    #sehrimbolum1orta h1{
+        font-size: 2em;
+    }
+    #sehrimbolum1orta p{
+        font-size: 1.2em;
+    }
+    #sehrimbolum1orta a{
+        padding:10px 20px;
+        border-radius: 15px;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width:1257px) {
+    .sehrimbolum3kutu{
+        flex-basis: 75%;
+        padding-bottom: 50px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+    
+}
