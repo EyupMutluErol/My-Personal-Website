@@ -71,6 +71,7 @@
 
 
 
+
 #bolum2{
     margin-top:10px;
     margin-bottom:70px;
@@ -94,7 +95,7 @@
     margin-bottom: 100px;
 }
 #bolum2orta{
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
@@ -113,8 +114,8 @@
     margin-left: 25px;
     border-radius:50%;
     margin-right: 10px;
-    height: 210px;
-    width: 210px;
+    height: 250px;
+    width: 250px;
 }
 .kisi h4{
     text-align: center;
@@ -139,7 +140,7 @@
     margin-bottom: 70px;
 }
 
-@media screen and (max-width:980px){
+@media screen and (max-width:1155px){
     .kisi{
         flex-basis: 40%;
         text-align: center;
@@ -156,6 +157,32 @@
     #bolum2alt p{
         width: 70%;
         margin:0px auto 50px auto;
+    }
+}
+@media screen and (max-width:356px) {
+    .kisi img{
+        height: 200px;
+        width: 200px;
+    }
+    #bolum2ust h3{
+        font-size: 1.5em;
+    }
+    #bolum2ust p{
+        font-size: 0.8em;
+    }
+    .kisi h4{
+        font-size:1em;  
+    }
+    .kisi p{
+        font-size:0.6em;
+    }
+    #bolum2alt p{
+        width: 70%;
+        margin:0px auto 50px auto;
+        font-size: 0.7em;
+    }
+    input[type=submit]{
+        margin-bottom: 10px;
     }
 }
 
@@ -276,5 +303,32 @@ input[type=reset]:hover{
     textarea{
         width: 265px;
         height: 200px;
+    }
+}
+@media screen and (max-width:290px){
+    .bolum1{
+        height:3000px;
+    }
+    .bolum1 .container .row h1{
+        font-size: 20px;
+    }
+    input[type=tel]{
+        width: 55%;
+    }
+    input[type=text]{
+        width: 55%;
+    }
+    input[type=email]{
+        width: 55%;
+    }
+    #cinsiyet{
+        width: 55%;
+    }
+    textarea{
+        width: 60%;
+        height: 300px;
+    }
+    input[type=submit]{
+        margin-bottom: 10px;
     }
 }
