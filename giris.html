@@ -13,17 +13,21 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="giris.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid giris">
-        <div class="container">
-            <form action="kontrol.php" method="post" name="login">
-                <div class="ogrinput"><input type="email" name="mail" id="mail" placeholder="Öğrenci Mail " required autocomplete="off"><i class='bx bxl-gmail'></i><br/></div>
-                <div class="ogrinput"><input type="password" name="sifre" id="sifre" placeholder="Şifre" required><i class='bx bxs-lock-alt' ></i><br/></div>
-                <div class="ogrinput"><input type="submit" name="gonder" id="gonder" value="Giriş"></div>
-            </form>
-        </div>
-    </div>
+<div class="arkaplan">
+    <div class="sekil"></div>
+    <div class="sekil"></div>
+</div>
+<form action="kontrol.php" method="post" name="login">
+    <h3>Giriş Yap</h3>
+    <label for="Öğrenci Mail">Öğrenci Mail</label>
+    <input type="email" placeholder="Öğrenci Mail" id="mail" name="mail" autocomplete="off" required>
+    <label for="Şifre">Şifre</label>
+    <input type="password" placeholder="Şifre" id="sifre" name="sifre" required>
+    <button>Giriş Yap</button>
+</form>
 </body>
 </html>
