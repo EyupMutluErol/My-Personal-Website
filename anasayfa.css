@@ -305,7 +305,7 @@ input[type=reset]:hover{
         height: 200px;
     }
 }
-@media screen and (max-width:290px){
+@media screen and (max-width:294px){
     .bolum1{
         height:3000px;
     }
@@ -330,5 +330,31 @@ input[type=reset]:hover{
     }
     input[type=submit]{
         margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:356px) {
+    .row h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:250px) {
+    .bolum1{
+        height:4000px;
+    }
+    .kisi img{
+        height: 100px;
+        width: 100px;
+    }
+    #bolum3ust h5{
+        font-size:2em;
+    }
+    #bolum3ust p{
+        font-size: 0.8em;
+    }
+    input[type=submit]{
+        width: 50%;
+    }
+    input[type=reset]{
+        width: 50%;
     }
 }

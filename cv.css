@@ -156,9 +156,6 @@ ul{
     margin-left: 15px;
 }
 @media screen and (max-width:500px) {
-    .bolum1{
-        height: 1100px;
-    }
     .baslik{
         width: 300px;
     }
@@ -169,5 +166,13 @@ ul{
 @media screen and (max-width:992px){
     .bolum1{
         height: 1100px;
+    }
+}
+@media screen and (max-width:330px) {
+    #cvsarikisim{
+        width: 80%;
+    }
+    .bolum1{
+        height: 2000px;
     }
 }

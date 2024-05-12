@@ -233,7 +233,7 @@
         width: 200px;
     }
 }
-@media screen and (max-width:248px) {
+@media screen and (max-width:250px) {
     #takimimbolum3ust h3{
         font-size: 1em;
     }
