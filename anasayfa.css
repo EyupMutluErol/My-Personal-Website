@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 .bolum1{
     background-image: url(./resimler/AnasayfaArkaPlan.jpg);
@@ -177,6 +178,135 @@
         font-size:0.6em;
     }
     #bolum2alt p{
+        width: 70%;
+        margin:0px auto 50px auto;
+        font-size: 0.7em;
+    }
+    input[type=submit]{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+#bolum22{
+    margin-top:10px;
+    margin-bottom:70px;
+    width: 100%;
+}
+#bolum22ust{
+    text-align: center;
+    padding-top: 70px;
+    border-top: 1px solid #858585;
+}
+#bolum22ust h3{
+    color:#333030;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#bolum22ust p{
+    color:#555353;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+#bolum22orta{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-between;
+    border-top:1px solid #858585;
+    border-bottom:1px solid #858585;
+}
+.kisi{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis: 230px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.kisi img{
+    margin-left: 25px;
+    border-radius:50%;
+    margin-right: 10px;
+    height: 250px;
+    width: 250px;
+}
+.kisi h4{
+    text-align: center;
+    margin-top:25px;
+    font-size:1.2em;
+    margin-bottom:10px;
+}
+.kisi p{
+    text-align: center;
+    font-size:0.9em;
+    margin-bottom:5px;
+}
+#bolum22alt{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 750px;
+    margin:0 auto;
+    text-align: center;
+}
+#bolum22alt p{
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+.metacritikLinki{
+    background-color:#333030;
+    color:#fff;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+.metacritikLinki:hover{
+    background-color: #000000;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:1155px){
+    .kisi{
+        flex-basis: 40%;
+        text-align: center;
+    }
+    .kisi img{
+        text-align: center;
+        float: none;
+    }
+}
+@media screen and (max-width:600px){
+    .kisi{
+        flex-basis: 100%;
+    }
+    #bolum22alt p{
+        width: 70%;
+        margin:0px auto 50px auto;
+    }
+}
+@media screen and (max-width:356px) {
+    .kisi img{
+        height: 200px;
+        width: 200px;
+    }
+    #bolum22ust h3{
+        font-size: 1.5em;
+    }
+    #bolum22ust p{
+        font-size: 0.8em;
+    }
+    .kisi h4{
+        font-size:1em;  
+    }
+    .kisi p{
+        font-size:0.6em;
+    }
+    #bolum22alt p{
         width: 70%;
         margin:0px auto 50px auto;
         font-size: 0.7em;
