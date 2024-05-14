@@ -3,20 +3,6 @@
     padding:0;
     font-family: "Poppins", sans-serif;
 }
-.bolum1{
-    background-image: url(./Resimler/cvArkaPlan.jpg);
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-}
-.overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.3);
-    position: absolute;
-    top:0;
-    left:0;
-}
 .navbar{
     padding-top:30px;
 }
@@ -49,130 +35,230 @@
     color:#f7b71d !important;
 }
 
-#cvProfil{
-    border-radius: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+
+
+body{
+    background: linear-gradient(to top right,#05c98e,#240E88);
+    min-height: 100vh;
 }
-#cvustkisim{
-    max-width: 500px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color:#fff;
-    text-align: center;
-    margin: 0 auto;
-}
-@media screen and (max-width:768px) {
-    #cvustkisim{
-        padding-top: 100px;
-    }
-}
-#cvsarikisim{
-    border: 2.5px solid black;
-    border-radius: 5px;
+.cvKismi{
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    margin: 0 auto;
-    height: 65px;
-    background-color: #f7b71d;
-    max-width: 700px;
-    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+}
+.container2 .solkisim{
+    position: relative;
+    padding:40px;
+    background: #501471;
+}
+.profilkismi{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profilkismi .resimkutusu{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profilkismi .resimkutusu img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profilkismi h2{
+    color:#fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profilkismi h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.iletisimbilgileri{
+    padding-top: 40px;
+}
+.baslik{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
-i{
+.iletisimbilgileri ul{
+    position: relative;
+}  
+.iletisimbilgileri ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+} 
+.iletisimbilgileri ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:#03a9f4;
+}
+.iletisimbilgileri ul li span{
     color:#fff;
-    font-size: 23px;
+    font-weight: 300;
+} 
+.iletisimbilgileri.egitim li{
+    margin-bottom: 15px;
+} 
+.iletisimbilgileri.egitim h5{
+    color:#03a9f4;
+    font-weight: 500;
+} 
+.iletisimbilgileri.egitim h4:nth-child(2){
+    color:#fff;
+    font-weight: 500;
+    font-size: 20px;
+} 
+.iletisimbilgileri.egitim h4{
+    color:#fff;
+    font-weight: 300;
+    font-size: 20px;
+}   
+.iletisimbilgileri.dil .yüzde{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
     display: block;
+    margin-top: 5px;
 }
-.bx-phone{
-    padding-top: 3px;
-    margin-left:50px;
-}
-#sarikisimtel{
-    margin-left: 50px;
-    margin-right: 50px;
-    flex-basis: 150px;
-    float: left;
-}
-.bxl-gmail{
-    padding-top: 3px;
-    margin-left:100px;
-}
-#sarikisimmail{
-    margin-right: 100px;
-    flex-basis: 200px;
-    float: left;
+.iletisimbilgileri.dil .yüzde div{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background: #03a9f4;
 }
 
-.bx-calendar{
-    padding-top: 3px;
-    margin-left: 30px;
+
+.container2 .sagkisim{
+    position: relative;
+    padding:40px;
 }
-@media screen and (max-width:700px) {
-    #cvsarikisim{
-       height: 210px;
-       width: 300px;
-    }
-    #sarikisimtel{
-        margin: 0 auto;
-    }
-    #sarikisimmail{
-        margin: 0 auto;
-    }
-    #sarikisimdogum{
-        margin: 0 auto;
-    }
-    .bx-phone{
-        margin-left:65px;
-    }
-    .bx-calendar{
-        margin-left: 35px;
-    }
-}
-.baslik{
-    max-width: 700px;
-    margin: 0 auto;
-    color:#fff;
+.bilgi{
     margin-bottom: 50px;
 }
-.baslik h6{
-    border-bottom: 2px solid #fff;
+.bilgi:last-child{
+    margin-bottom: 0;
 }
-.solahizala{
-    float:left;
+.baslik2{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
-.sagahizala{
-    float:right;
+p{
+    font-size: 1.2em;
 }
-.baslik{
-    max-width: 700px;
-    margin: 0 auto;
-    color:#fff;
-    margin-bottom: 50px;
+.bilgi .kutu{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
 }
-ul{
-    margin-left: 15px;
+.yetenekler .kutu{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
 }
-@media screen and (max-width:500px) {
-    .baslik{
-        width: 300px;
+.yetenekler .kutu h4{
+    color:#848c99;
+    font-weight: 500;
+}
+.yetenekler .kutu .yüzde{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.yetenekler .kutu .yüzde div{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background: #03a9f4;
+}
+.ilgialani ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ilgialani ul li{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.ilgialani ul li .bx{
+    color:#03a9f4;
+    font-size: 18px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1000px){
+    .container2{
+        margin:10px;
+        grid-template-columns: repeat(1,1fr);
     }
-    .sagahizala{
-        float:none;
+    .ilgialani ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .iletisimbilgileri{
+        text-align: center;
+    }
+    .sagkisim .bilgi .baslik2{
+        text-align: center;
+    }
+    .ilgialani ul li{
+        text-align: center;
     }
 }
-@media screen and (max-width:992px){
-    .bolum1{
-        height: 1100px;
+@media screen and (max-width:600px){
+    .bilgi .kutu{
+        flex-direction: column;
+    }
+    .ilgialani ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .yetenekler .kutu{
+        grid-template-columns: repeat(1,1fr);
     }
 }
-@media screen and (max-width:330px) {
-    #cvsarikisim{
-        width: 80%;
-    }
-    .bolum1{
-        height: 2000px;
+@media screen and (max-width:768px){
+    .cvKismi{
+        margin-top: 230px;
     }
 }
