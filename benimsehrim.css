@@ -276,3 +276,14 @@ img{
         font-size: 2em;
     }
 }
+#yukari{
+    height: 65px;
+    width: 65px;
+    position: fixed;
+    bottom:65px;
+    right: 100px;
+    background: url(./Resimler/yukari.png);
+    background-size: cover;
+    display: none;
+    transition-duration: 0.5s;
+}

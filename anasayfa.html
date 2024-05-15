@@ -121,7 +121,7 @@
             </div>
             <div class="kisi">
                 <img src="./Resimler/Tlou.jpg" alt="The Lust Of Us">
-                <h4>The Lust Of Us</h4>
+                <h4>The Last Of Us</h4>
                 <p>Kendisini babası gibi koruyup kollayan Joel'u kaybeden elinin intikam hikayesini anlatan bir başyapıttır<br/><br/><a class="metacritikLinki" href="https://www.metacritic.com/game/the-last-of-us-part-ii/" target="_blank">Yorumlar</a></p>
             </div>
             <div class="kisi">
@@ -136,7 +136,7 @@
             </div>
             <div id="bolum22alt">
                 <p>Bu oyunlar benim oynadığım en iyi 4 oyun . Yorumlar butonuna tıklayarak ilgili oyun hakkında dünyanın dört bir yanından oyuncuların , oyun yazarlarının ve otoritelerinin yorumlarını okuyabileceğiniz metacritic sitesine gidebilirsiniz . Metacritic ana sayfası için aşağıdaki butona tıklayabilirsiniz</p> 
-                <a class="metacritikLinki" href="https://www.metacritic.com/game/">Metacritic</a>  
+                <a class="metacritikLinki" href="https://www.metacritic.com/game/" target="_blank">Metacritic</a>  
             </div>
         </div>
     </section>
@@ -159,13 +159,23 @@
             </form>
         </div>
     </section>
-
-
-
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <a href="#yukari" id="yukari" title="Yukarı Çık"></a>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()<800){
+                    $('#yukari').fadeOut();
+                }
+                else{
+                    $('#yukari').fadeIn();
+                }
+            });
+            $('#yukari').on('click',function(){
+                $('html,body').animate({scrollTop:0},'fast');
+            });
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
