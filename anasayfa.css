@@ -499,3 +499,7 @@ input[type=reset]:hover{
     display: none;
     transition-duration: 0.5s;
 }
+.error{
+    color:red;
+    display:none;
+}
