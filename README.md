@@ -56,4 +56,9 @@ Projenin PHP tabanlı özelliklerinin (iletişim formu, giriş sistemi, film API
     * `anasayfa.html` otomatik olarak yüklenmelidir.
 
 
+## İletişim 
+
+* **Ad Soyad:** Eyüp Mutlu Erol
+* **GitHub:** [https://github.com/EyupMutluErol]
+* **E-posta:** [eyupmutluerol@gmail.com]
 
